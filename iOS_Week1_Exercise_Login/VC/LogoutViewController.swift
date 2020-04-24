@@ -19,12 +19,7 @@ class LogoutViewController: UIViewController {
     @IBOutlet weak var idLabel: UITextField!
     @IBOutlet weak var pwdLabel: UITextField!
    
-    // 로그아웃버튼
-    @IBAction func logoutView(_ sender: Any) {
-        
-        
-        //self.navigationController?.popViewController(animated: true)
-    }
+    
     
     var id: String?
     var pwd: String?
@@ -38,6 +33,16 @@ class LogoutViewController: UIViewController {
         idLabel.text = id
         pwdLabel.text = pwd
     }
+    // 로그아웃버튼
+    @IBAction func logoutView(_ sender: Any) {
+        
+        dismiss(animated: true) {
+            if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+                (appDelegate.window?.rootViewController as? UINavigationController)?.popViewController(animated: true)
+                }
+            }
+        }
+        
 
 
 }

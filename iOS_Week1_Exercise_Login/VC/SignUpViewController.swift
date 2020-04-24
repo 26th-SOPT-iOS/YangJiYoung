@@ -16,7 +16,15 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
 
-
+    
+    @IBAction func signUpData(_ sender: Any) {
+        guard let recieveViewController = self.storyboard?.instantiateViewController(identifier: "LogoutViewController") as? LogoutViewController else {return}
+        
+        self.present(recieveViewController, animated: true, completion: nil)
+  
+    }
+    
 }
 
