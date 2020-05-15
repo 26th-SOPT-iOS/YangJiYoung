@@ -55,7 +55,6 @@ class SignUpViewController: UIViewController {
    }
    
    func setNavigationBarLooksLike() {
-       
        guard let navigationBar = self.navigationController?.navigationBar else { return }
        
        let backIndicator: UIBarButtonItem = UIBarButtonItem(image: UIImage(named: "backIndicator"), style: .plain, target: self, action: #selector(dismissVC))
@@ -68,9 +67,8 @@ class SignUpViewController: UIViewController {
        navigationItem.leftBarButtonItem = backIndicator
        
    }
-   
+   // 뒤로가기
    @objc func dismissVC() {
        self.navigationController?.popViewController(animated: true)
    }
-
 }

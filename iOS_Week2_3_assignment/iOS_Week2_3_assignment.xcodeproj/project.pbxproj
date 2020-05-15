@@ -12,10 +12,13 @@
 		CC317C90246E5AF900FE9DF1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC317C8F246E5AF900FE9DF1 /* SignUpViewController.swift */; };
 		CC58A31B246814B600ACC4B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC58A31A246814B600ACC4B7 /* AppDelegate.swift */; };
 		CC58A31D246814B600ACC4B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC58A31C246814B600ACC4B7 /* SceneDelegate.swift */; };
-		CC58A31F246814B600ACC4B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC58A31E246814B600ACC4B7 /* ViewController.swift */; };
+		CC58A31F246814B600ACC4B7 /* SoptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC58A31E246814B600ACC4B7 /* SoptVC.swift */; };
 		CC58A322246814B600ACC4B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC58A320246814B600ACC4B7 /* Main.storyboard */; };
 		CC58A324246814B900ACC4B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC58A323246814B900ACC4B7 /* Assets.xcassets */; };
 		CC58A327246814B900ACC4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC58A325246814B900ACC4B7 /* LaunchScreen.storyboard */; };
+		CCB49F76246E87BC00CFD9D5 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB49F75246E87BC00CFD9D5 /* FriendViewController.swift */; };
+		CCB49F7B246EA9E500CFD9D5 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB49F7A246EA9E500CFD9D5 /* ProfileCell.swift */; };
+		CCB49F7D246EBB3700CFD9D5 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB49F7C246EBB3700CFD9D5 /* Friends.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +28,14 @@
 		CC58A317246814B600ACC4B7 /* iOS_Week2_3_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Week2_3_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC58A31A246814B600ACC4B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC58A31C246814B600ACC4B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC58A31E246814B600ACC4B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC58A31E246814B600ACC4B7 /* SoptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptVC.swift; sourceTree = "<group>"; };
 		CC58A321246814B600ACC4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC58A323246814B900ACC4B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC58A326246814B900ACC4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC58A328246814B900ACC4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB49F75246E87BC00CFD9D5 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		CCB49F7A246EA9E500CFD9D5 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		CCB49F7C246EBB3700CFD9D5 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D8D573B246E6F2D008AE141 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CC58A320246814B600ACC4B7 /* Main.storyboard */,
+				CCB49F7C246EBB3700CFD9D5 /* Friends.swift */,
+				CC58A325246814B900ACC4B7 /* LaunchScreen.storyboard */,
+				3D8D573C246E6F2D008AE141 /* View */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3D8D573C246E6F2D008AE141 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCB49F77246EA86100CFD9D5 /* Cells */,
+				3D8D573D246E6F2D008AE141 /* ViewControllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D8D573D246E6F2D008AE141 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCB49F75246E87BC00CFD9D5 /* FriendViewController.swift */,
+				CC58A31E246814B600ACC4B7 /* SoptVC.swift */,
+				CC317C8F246E5AF900FE9DF1 /* SignUpViewController.swift */,
+				CC12EB952468347500A52EAB /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D8D573E246E6F39008AE141 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				CC317C8D246E54E900FE9DF1 /* Extensions+UIColor.swift */,
+				CC58A323246814B900ACC4B7 /* Assets.xcassets */,
+				CC58A328246814B900ACC4B7 /* Info.plist */,
+				3D8D573F246E6F50008AE141 /* Delgates */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		3D8D573F246E6F50008AE141 /* Delgates */ = {
+			isa = PBXGroup;
+			children = (
+				CC58A31A246814B600ACC4B7 /* AppDelegate.swift */,
+				CC58A31C246814B600ACC4B7 /* SceneDelegate.swift */,
+			);
+			path = Delgates;
+			sourceTree = "<group>";
+		};
 		CC58A30E246814B600ACC4B7 = {
 			isa = PBXGroup;
 			children = (
@@ -62,19 +119,19 @@
 		CC58A319246814B600ACC4B7 /* iOS_Week2_assignment */ = {
 			isa = PBXGroup;
 			children = (
-				CC58A31A246814B600ACC4B7 /* AppDelegate.swift */,
-				CC58A31C246814B600ACC4B7 /* SceneDelegate.swift */,
-				CC58A31E246814B600ACC4B7 /* ViewController.swift */,
-				CC58A320246814B600ACC4B7 /* Main.storyboard */,
-				CC317C8F246E5AF900FE9DF1 /* SignUpViewController.swift */,
-				CC317C8D246E54E900FE9DF1 /* Extensions+UIColor.swift */,
-				CC12EB952468347500A52EAB /* LoginViewController.swift */,
-				CC58A323246814B900ACC4B7 /* Assets.xcassets */,
-				CC58A325246814B900ACC4B7 /* LaunchScreen.storyboard */,
-				CC58A328246814B900ACC4B7 /* Info.plist */,
+				3D8D573E246E6F39008AE141 /* Supports */,
+				3D8D573B246E6F2D008AE141 /* Scenes */,
 			);
 			name = iOS_Week2_assignment;
 			path = iOS_Week2_3_assignment;
+			sourceTree = "<group>";
+		};
+		CCB49F77246EA86100CFD9D5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CCB49F7A246EA9E500CFD9D5 /* ProfileCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +207,11 @@
 			files = (
 				CC317C90246E5AF900FE9DF1 /* SignUpViewController.swift in Sources */,
 				CC12EB962468347500A52EAB /* LoginViewController.swift in Sources */,
-				CC58A31F246814B600ACC4B7 /* ViewController.swift in Sources */,
+				CC58A31F246814B600ACC4B7 /* SoptVC.swift in Sources */,
+				CCB49F76246E87BC00CFD9D5 /* FriendViewController.swift in Sources */,
+				CCB49F7D246EBB3700CFD9D5 /* Friends.swift in Sources */,
 				CC58A31B246814B600ACC4B7 /* AppDelegate.swift in Sources */,
+				CCB49F7B246EA9E500CFD9D5 /* ProfileCell.swift in Sources */,
 				CC58A31D246814B600ACC4B7 /* SceneDelegate.swift in Sources */,
 				CC317C8E246E54E900FE9DF1 /* Extensions+UIColor.swift in Sources */,
 			);
@@ -298,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS_Week2_3_assignment/Info.plist;
+				INFOPLIST_FILE = iOS_Week2_3_assignment/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS_Week2_3_assignment/Info.plist;
+				INFOPLIST_FILE = iOS_Week2_3_assignment/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

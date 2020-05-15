@@ -10,7 +10,6 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    
 
     @IBOutlet var txtFields: [UITextField]!
     @IBOutlet weak var loginButton: UIButton!
@@ -23,7 +22,10 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButton(_ sender: Any) {
-        guard let viewcontroller = storyboard?.instantiateViewController(withIdentifier: "TabbarController") else { return }
+        guard let viewcontroller = storyboard?.instantiateViewController(withIdentifier: "TabbarController") else {
+            return
+        }
+        
         viewcontroller.modalPresentationStyle = .currentContext
         present(viewcontroller, animated: true)
     }
