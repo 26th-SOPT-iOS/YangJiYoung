@@ -19,10 +19,10 @@ class SignUpViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    // 회원가입 후 전화면으로 돌아가기
    @IBAction func sendNextVC(_ sender: Any) {
        
-       guard let viewcontroller = storyboard?.instantiateViewController(identifier: "TabbarController") else { return }
+       guard let viewcontroller = storyboard?.instantiateViewController(identifier: "LoginViewController") else { return }
        
        viewcontroller.modalPresentationStyle = .fullScreen
        present(viewcontroller, animated: true)
@@ -39,9 +39,11 @@ class SignUpViewController: UIViewController {
            txtFields[i].layer.borderWidth = 1
            txtFields[i].layer.borderColor = UIColor.white.cgColor
            txtFields[i].clipsToBounds = true
-           txtFields[0].placeholder = "  이름"
-           txtFields[1].placeholder = "  이메일"
-           txtFields[2].placeholder = "  비밀번호"
+           txtFields[0].placeholder = "  아이디"
+           txtFields[1].placeholder = "  비밀번호"
+           txtFields[2].placeholder = "  이름"
+           txtFields[3].placeholder = "  이메일"
+           txtFields[4].placeholder = "  휴대폰 번호"
        }
        signUpButton.layer.cornerRadius = 20
        signUpButton.layer.borderWidth = 1

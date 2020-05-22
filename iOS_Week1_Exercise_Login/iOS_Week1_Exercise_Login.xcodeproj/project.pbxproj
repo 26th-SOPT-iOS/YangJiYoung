@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		349659700DBA20FCFD366532 /* Pods_iOS_Week1_Exercise_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2DFE169092531CCCFF6462 /* Pods_iOS_Week1_Exercise_Login.framework */; };
 		CC2A6928244AEA7F00379EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A6927244AEA7F00379EA9 /* AppDelegate.swift */; };
 		CC2A692A244AEA7F00379EA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A6929244AEA7F00379EA9 /* SceneDelegate.swift */; };
 		CC2A692C244AEA7F00379EA9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A692B244AEA7F00379EA9 /* SignUpViewController.swift */; };
@@ -15,9 +16,16 @@
 		CC2A6934244AEA8200379EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2A6932244AEA8200379EA9 /* LaunchScreen.storyboard */; };
 		CC2A693C244AF1D100379EA9 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A693B244AF1D100379EA9 /* LogoutViewController.swift */; };
 		CC2A693E244AF67F00379EA9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A693D244AF67F00379EA9 /* LoginViewController.swift */; };
+		CCD627B4246FBBB700B6E6AF /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627B3246FBBB700B6E6AF /* APIConstants.swift */; };
+		CCD627B6246FBE4F00B6E6AF /* SigninData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627B5246FBE4F00B6E6AF /* SigninData.swift */; };
+		CCD627B8246FBFC400B6E6AF /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627B7246FBFC400B6E6AF /* NetworkResult.swift */; };
+		CCD627BA246FC57F00B6E6AF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627B9246FC57F00B6E6AF /* LoginService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E2DFE169092531CCCFF6462 /* Pods_iOS_Week1_Exercise_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Week1_Exercise_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E674989BED31BCEC55105C0 /* Pods-iOS_Week1_Exercise_Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Week1_Exercise_Login.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Week1_Exercise_Login/Pods-iOS_Week1_Exercise_Login.debug.xcconfig"; sourceTree = "<group>"; };
+		6E8DF582EB3CCA5B78D044AF /* Pods-iOS_Week1_Exercise_Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Week1_Exercise_Login.release.xcconfig"; path = "Target Support Files/Pods-iOS_Week1_Exercise_Login/Pods-iOS_Week1_Exercise_Login.release.xcconfig"; sourceTree = "<group>"; };
 		CC2A6924244AEA7F00379EA9 /* iOS_Week1_Exercise_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Week1_Exercise_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2A6927244AEA7F00379EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC2A6929244AEA7F00379EA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +36,10 @@
 		CC2A6935244AEA8200379EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC2A693B244AF1D100379EA9 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		CC2A693D244AF67F00379EA9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CCD627B3246FBBB700B6E6AF /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		CCD627B5246FBE4F00B6E6AF /* SigninData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninData.swift; sourceTree = "<group>"; };
+		CCD627B7246FBFC400B6E6AF /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		CCD627B9246FC57F00B6E6AF /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349659700DBA20FCFD366532 /* Pods_iOS_Week1_Exercise_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5358251427CF75479FCD770A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E674989BED31BCEC55105C0 /* Pods-iOS_Week1_Exercise_Login.debug.xcconfig */,
+				6E8DF582EB3CCA5B78D044AF /* Pods-iOS_Week1_Exercise_Login.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4FC0AE0716C13BEBDC48EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E2DFE169092531CCCFF6462 /* Pods_iOS_Week1_Exercise_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC2A691B244AEA7F00379EA9 = {
 			isa = PBXGroup;
 			children = (
 				CC2A6926244AEA7F00379EA9 /* iOS_Week1_Exercise_Login */,
 				CC2A6925244AEA7F00379EA9 /* Products */,
+				5358251427CF75479FCD770A /* Pods */,
+				B4FC0AE0716C13BEBDC48EC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +92,7 @@
 		CC2A6926244AEA7F00379EA9 /* iOS_Week1_Exercise_Login */ = {
 			isa = PBXGroup;
 			children = (
+				CCD627BB246FC59000B6E6AF /* Resource */,
 				CC2A693F244AFD4E00379EA9 /* VC */,
 				CC2A6927244AEA7F00379EA9 /* AppDelegate.swift */,
 				CC2A6929244AEA7F00379EA9 /* SceneDelegate.swift */,
@@ -81,6 +114,17 @@
 			path = VC;
 			sourceTree = "<group>";
 		};
+		CCD627BB246FC59000B6E6AF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CCD627B3246FBBB700B6E6AF /* APIConstants.swift */,
+				CCD627B5246FBE4F00B6E6AF /* SigninData.swift */,
+				CCD627B7246FBFC400B6E6AF /* NetworkResult.swift */,
+				CCD627B9246FC57F00B6E6AF /* LoginService.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC2A6938244AEA8200379EA9 /* Build configuration list for PBXNativeTarget "iOS_Week1_Exercise_Login" */;
 			buildPhases = (
+				2524AC933647951BF76E8A5A /* [CP] Check Pods Manifest.lock */,
 				CC2A6920244AEA7F00379EA9 /* Sources */,
 				CC2A6921244AEA7F00379EA9 /* Frameworks */,
 				CC2A6922244AEA7F00379EA9 /* Resources */,
+				C6A05B0A0E0515B1F62A900B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +193,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2524AC933647951BF76E8A5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Week1_Exercise_Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A05B0A0E0515B1F62A900B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Week1_Exercise_Login/Pods-iOS_Week1_Exercise_Login-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Week1_Exercise_Login/Pods-iOS_Week1_Exercise_Login-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Week1_Exercise_Login/Pods-iOS_Week1_Exercise_Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC2A6920244AEA7F00379EA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -154,9 +242,13 @@
 			files = (
 				CC2A692C244AEA7F00379EA9 /* SignUpViewController.swift in Sources */,
 				CC2A6928244AEA7F00379EA9 /* AppDelegate.swift in Sources */,
+				CCD627B4246FBBB700B6E6AF /* APIConstants.swift in Sources */,
 				CC2A693C244AF1D100379EA9 /* LogoutViewController.swift in Sources */,
+				CCD627BA246FC57F00B6E6AF /* LoginService.swift in Sources */,
+				CCD627B6246FBE4F00B6E6AF /* SigninData.swift in Sources */,
 				CC2A693E244AF67F00379EA9 /* LoginViewController.swift in Sources */,
 				CC2A692A244AEA7F00379EA9 /* SceneDelegate.swift in Sources */,
+				CCD627B8246FBFC400B6E6AF /* NetworkResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +390,7 @@
 		};
 		CC2A6939244AEA8200379EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E674989BED31BCEC55105C0 /* Pods-iOS_Week1_Exercise_Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +408,7 @@
 		};
 		CC2A693A244AEA8200379EA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8DF582EB3CCA5B78D044AF /* Pods-iOS_Week1_Exercise_Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

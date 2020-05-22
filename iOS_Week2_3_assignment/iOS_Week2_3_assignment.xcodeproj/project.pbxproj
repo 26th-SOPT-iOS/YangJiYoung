@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F64C5E6BE1DF9CB1A3F30E8 /* Pods_iOS_Week2_3_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4705EFB0CA1C99718F90147 /* Pods_iOS_Week2_3_assignment.framework */; };
 		CC12EB962468347500A52EAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC12EB952468347500A52EAB /* LoginViewController.swift */; };
 		CC317C8E246E54E900FE9DF1 /* Extensions+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC317C8D246E54E900FE9DF1 /* Extensions+UIColor.swift */; };
 		CC317C90246E5AF900FE9DF1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC317C8F246E5AF900FE9DF1 /* SignUpViewController.swift */; };
@@ -19,9 +20,18 @@
 		CCB49F76246E87BC00CFD9D5 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB49F75246E87BC00CFD9D5 /* FriendViewController.swift */; };
 		CCB49F7B246EA9E500CFD9D5 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB49F7A246EA9E500CFD9D5 /* ProfileCell.swift */; };
 		CCB49F7D246EBB3700CFD9D5 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB49F7C246EBB3700CFD9D5 /* Friends.swift */; };
+		CCD627BD246FD3DC00B6E6AF /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627BC246FD3DC00B6E6AF /* APIConstants.swift */; };
+		CCD627C3246FD7FE00B6E6AF /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627BE246FD7FE00B6E6AF /* NetworkResult.swift */; };
+		CCD627C4246FD7FE00B6E6AF /* SigninData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627C0246FD7FE00B6E6AF /* SigninData.swift */; };
+		CCD627C5246FD7FE00B6E6AF /* SignupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627C2246FD7FE00B6E6AF /* SignupData.swift */; };
+		CCD627C7246FD7FE00B6E6AF /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627C1246FD7FE00B6E6AF /* SignupService.swift */; };
+		CCD627C9246FD86200B6E6AF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627C8246FD86200B6E6AF /* LoginService.swift */; };
+		CCD627CE2477D81000B6E6AF /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD627CD2477D81000B6E6AF /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		064B5EF67C9B30B5AF502DE7 /* Pods-iOS_Week2_3_assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Week2_3_assignment.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Week2_3_assignment/Pods-iOS_Week2_3_assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		366CB76E98FF1E1E6600BF86 /* Pods-iOS_Week2_3_assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Week2_3_assignment.release.xcconfig"; path = "Target Support Files/Pods-iOS_Week2_3_assignment/Pods-iOS_Week2_3_assignment.release.xcconfig"; sourceTree = "<group>"; };
 		CC12EB952468347500A52EAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CC317C8D246E54E900FE9DF1 /* Extensions+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIColor.swift"; sourceTree = "<group>"; };
 		CC317C8F246E5AF900FE9DF1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +46,14 @@
 		CCB49F75246E87BC00CFD9D5 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		CCB49F7A246EA9E500CFD9D5 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		CCB49F7C246EBB3700CFD9D5 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		CCD627BC246FD3DC00B6E6AF /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		CCD627BE246FD7FE00B6E6AF /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkResult.swift; path = /Users/JiyoungYang/YangJiYoung/iOS_Week2_3_assignment/iOS_Week2_3_assignment/Resource/NetworkResult.swift; sourceTree = "<absolute>"; };
+		CCD627C0246FD7FE00B6E6AF /* SigninData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SigninData.swift; path = /Users/JiyoungYang/YangJiYoung/iOS_Week2_3_assignment/iOS_Week2_3_assignment/Resource/SigninData.swift; sourceTree = "<absolute>"; };
+		CCD627C1246FD7FE00B6E6AF /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupService.swift; path = /Users/JiyoungYang/YangJiYoung/iOS_Week2_3_assignment/iOS_Week2_3_assignment/Resource/SignupService.swift; sourceTree = "<absolute>"; };
+		CCD627C2246FD7FE00B6E6AF /* SignupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupData.swift; path = /Users/JiyoungYang/YangJiYoung/iOS_Week2_3_assignment/iOS_Week2_3_assignment/Resource/SignupData.swift; sourceTree = "<absolute>"; };
+		CCD627C8246FD86200B6E6AF /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginService.swift; path = /Users/JiyoungYang/YangJiYoung/iOS_Week2_3_assignment/iOS_Week2_3_assignment/Resource/LoginService.swift; sourceTree = "<absolute>"; };
+		CCD627CD2477D81000B6E6AF /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		D4705EFB0CA1C99718F90147 /* Pods_iOS_Week2_3_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Week2_3_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,30 +61,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F64C5E6BE1DF9CB1A3F30E8 /* Pods_iOS_Week2_3_assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D8D573B246E6F2D008AE141 /* Scenes */ = {
+		3B72D1B43590DABF14E6E70C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC58A320246814B600ACC4B7 /* Main.storyboard */,
-				CCB49F7C246EBB3700CFD9D5 /* Friends.swift */,
-				CC58A325246814B900ACC4B7 /* LaunchScreen.storyboard */,
-				3D8D573C246E6F2D008AE141 /* View */,
+				064B5EF67C9B30B5AF502DE7 /* Pods-iOS_Week2_3_assignment.debug.xcconfig */,
+				366CB76E98FF1E1E6600BF86 /* Pods-iOS_Week2_3_assignment.release.xcconfig */,
 			);
-			path = Scenes;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		3D8D573C246E6F2D008AE141 /* View */ = {
+		3D8D573C246E6F2D008AE141 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				CCB49F7C246EBB3700CFD9D5 /* Friends.swift */,
+				3D8D573F246E6F50008AE141 /* Delgates */,
 				CCB49F77246EA86100CFD9D5 /* Cells */,
 				3D8D573D246E6F2D008AE141 /* ViewControllers */,
 			);
-			path = View;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		3D8D573D246E6F2D008AE141 /* ViewControllers */ = {
@@ -76,19 +95,9 @@
 				CC58A31E246814B600ACC4B7 /* SoptVC.swift */,
 				CC317C8F246E5AF900FE9DF1 /* SignUpViewController.swift */,
 				CC12EB952468347500A52EAB /* LoginViewController.swift */,
+				CCD627CD2477D81000B6E6AF /* SignUpVC.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		3D8D573E246E6F39008AE141 /* Supports */ = {
-			isa = PBXGroup;
-			children = (
-				CC317C8D246E54E900FE9DF1 /* Extensions+UIColor.swift */,
-				CC58A323246814B900ACC4B7 /* Assets.xcassets */,
-				CC58A328246814B900ACC4B7 /* Info.plist */,
-				3D8D573F246E6F50008AE141 /* Delgates */,
-			);
-			path = Supports;
 			sourceTree = "<group>";
 		};
 		3D8D573F246E6F50008AE141 /* Delgates */ = {
@@ -100,11 +109,21 @@
 			path = Delgates;
 			sourceTree = "<group>";
 		};
+		A2AD04FEBB1DFB497D44101E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4705EFB0CA1C99718F90147 /* Pods_iOS_Week2_3_assignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC58A30E246814B600ACC4B7 = {
 			isa = PBXGroup;
 			children = (
 				CC58A319246814B600ACC4B7 /* iOS_Week2_assignment */,
 				CC58A318246814B600ACC4B7 /* Products */,
+				3B72D1B43590DABF14E6E70C /* Pods */,
+				A2AD04FEBB1DFB497D44101E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,8 +138,9 @@
 		CC58A319246814B600ACC4B7 /* iOS_Week2_assignment */ = {
 			isa = PBXGroup;
 			children = (
-				3D8D573E246E6F39008AE141 /* Supports */,
-				3D8D573B246E6F2D008AE141 /* Scenes */,
+				CC58A328246814B900ACC4B7 /* Info.plist */,
+				3D8D573C246E6F2D008AE141 /* Source */,
+				CCD627B2246FADCD00B6E6AF /* Resource */,
 			);
 			name = iOS_Week2_assignment;
 			path = iOS_Week2_3_assignment;
@@ -134,6 +154,39 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		CCD627B2246FADCD00B6E6AF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CC317C8D246E54E900FE9DF1 /* Extensions+UIColor.swift */,
+				CCD627CB2477D3B700B6E6AF /* Network */,
+				CCD627CA246FD8B500B6E6AF /* StoryBoard */,
+				CC58A323246814B900ACC4B7 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CCD627CA246FD8B500B6E6AF /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CC58A320246814B600ACC4B7 /* Main.storyboard */,
+				CC58A325246814B900ACC4B7 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		CCD627CB2477D3B700B6E6AF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CCD627C2246FD7FE00B6E6AF /* SignupData.swift */,
+				CCD627C8246FD86200B6E6AF /* LoginService.swift */,
+				CCD627BE246FD7FE00B6E6AF /* NetworkResult.swift */,
+				CCD627C1246FD7FE00B6E6AF /* SignupService.swift */,
+				CCD627C0246FD7FE00B6E6AF /* SigninData.swift */,
+				CCD627BC246FD3DC00B6E6AF /* APIConstants.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC58A32B246814B900ACC4B7 /* Build configuration list for PBXNativeTarget "iOS_Week2_3_assignment" */;
 			buildPhases = (
+				08D9FF1C35FA37A5061C80F9 /* [CP] Check Pods Manifest.lock */,
 				CC58A313246814B600ACC4B7 /* Sources */,
 				CC58A314246814B600ACC4B7 /* Frameworks */,
 				CC58A315246814B600ACC4B7 /* Resources */,
+				F048760F7AD1E9925B432388 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +255,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08D9FF1C35FA37A5061C80F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Week2_3_assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F048760F7AD1E9925B432388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Week2_3_assignment/Pods-iOS_Week2_3_assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Week2_3_assignment/Pods-iOS_Week2_3_assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Week2_3_assignment/Pods-iOS_Week2_3_assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC58A313246814B600ACC4B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -207,12 +304,19 @@
 			files = (
 				CC317C90246E5AF900FE9DF1 /* SignUpViewController.swift in Sources */,
 				CC12EB962468347500A52EAB /* LoginViewController.swift in Sources */,
+				CCD627C3246FD7FE00B6E6AF /* NetworkResult.swift in Sources */,
+				CCD627C7246FD7FE00B6E6AF /* SignupService.swift in Sources */,
 				CC58A31F246814B600ACC4B7 /* SoptVC.swift in Sources */,
 				CCB49F76246E87BC00CFD9D5 /* FriendViewController.swift in Sources */,
+				CCD627C4246FD7FE00B6E6AF /* SigninData.swift in Sources */,
+				CCD627C9246FD86200B6E6AF /* LoginService.swift in Sources */,
+				CCD627CE2477D81000B6E6AF /* SignUpVC.swift in Sources */,
 				CCB49F7D246EBB3700CFD9D5 /* Friends.swift in Sources */,
 				CC58A31B246814B600ACC4B7 /* AppDelegate.swift in Sources */,
+				CCD627BD246FD3DC00B6E6AF /* APIConstants.swift in Sources */,
 				CCB49F7B246EA9E500CFD9D5 /* ProfileCell.swift in Sources */,
 				CC58A31D246814B600ACC4B7 /* SceneDelegate.swift in Sources */,
+				CCD627C5246FD7FE00B6E6AF /* SignupData.swift in Sources */,
 				CC317C8E246E54E900FE9DF1 /* Extensions+UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,10 +459,11 @@
 		};
 		CC58A32C246814B900ACC4B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064B5EF67C9B30B5AF502DE7 /* Pods-iOS_Week2_3_assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS_Week2_3_assignment/Supports/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS_Week2_3_assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,10 +477,11 @@
 		};
 		CC58A32D246814B900ACC4B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366CB76E98FF1E1E6600BF86 /* Pods-iOS_Week2_3_assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS_Week2_3_assignment/Supports/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS_Week2_3_assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
